@@ -1,0 +1,11 @@
+{
+  "name": "midwives",
+  "version": "1.0.0",
+  "description": "a easy way to find the a good midwife based by comune caracteristics between a midwife and pregnand women",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alina ghetler",
+  "license": "ISC"
+}
