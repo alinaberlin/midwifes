@@ -11,3 +11,4 @@ let Patient = class {
   }
  
  }
+ module.exports = Patient

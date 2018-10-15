@@ -19,3 +19,4 @@ let Midwife = class {
 
     }
 }
+module.exports = Midwife

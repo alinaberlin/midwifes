@@ -7,3 +7,4 @@ let Rating = class {
  
 
  }
+ module.exports = Rating
