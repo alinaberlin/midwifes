@@ -6,9 +6,14 @@ let Patient = class {
         this.languages = languages;
         this.midwife = midwife
     }
-  giveRating (rating) {
+  /*giveRating (rating) {
       this.midwife.addRating(rating);
-  }
- 
+      
+  }*/
+   giveRating (rating, midwife) {
+       midwife.addRating(rating);
+       this.midwife = midwife
+   }
+
  }
  module.exports = Patient
