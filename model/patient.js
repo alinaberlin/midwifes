@@ -10,9 +10,9 @@ let Patient = class {
       this.midwife.addRating(rating);
       
   }*/
-   giveRating (rating, midwife) {
-       midwife.addRating(rating);
-       this.midwife = midwife
+   giveRating (rating) {
+       this.midwife.addRating(rating);
+       
    }
 
  }
