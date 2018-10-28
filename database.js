@@ -1,4 +1,4 @@
-
+//first version synchronous
 const fs = require('fs')
 module.exports = {
     save(data) {
