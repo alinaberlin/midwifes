@@ -10,6 +10,9 @@ let Patient = class {
       this.midwife.addRating(rating);
       
   }*/
+   static create(name, address, age, languages, midwife){
+       return new Patient(name, address, age, languages, midwife)
+   }
    giveRating (rating) {
        this.midwife.addRating(rating);
        
